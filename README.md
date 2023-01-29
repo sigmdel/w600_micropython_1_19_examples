@@ -10,8 +10,8 @@ that comes preinstalled on the board.**
 
 ## Usage
 
-1. Flash the most recent W60X MicroPython port [wm_w600_lfs.fls](https://github.com/robert-hh/Shared-Stuff) by Rober Mammelrath (robert-hh) *et al* onto the W600-PICO.
-Detailed instructions on how to update firmware of the W600-PICO are available here [4. Flashing the MicroPython Firmware](https://sigmdel.ca/michel/ha/w600/second_look_w600_en.html#flash_um).
+1. Flash the most recent W60X MicroPython port [wm_w600_lfs.fls](https://github.com/robert-hh/Shared-Stuff) onto the W600-PICO.
+
 
 2. Copy all the MicroPython scripts (`*.py`) in the  [src](src) to the W600-PICO flash memory.  
 
@@ -23,6 +23,15 @@ Detailed instructions on how to update firmware of the W600-PICO are available h
 
 6. Restart the W600-PICO. The scripts in `demo.py` should all be executed one after the other. It will be necessary to click on the `Quit` button in the default web page of the `webserver` to continue on to the last two modules.
 
+Detailed instructions on how to update firmware of the W600-PICO and how to copy files to and from the development board's flash memory are available in [A Second Look at the W600-PICO Development Board](https://sigmdel.ca/michel/ha/w600/second_look_w600_en.html).
+
+## Credits and Thanks
+
+Thanks to the [MicroPython](https://micropython.org) team for porting Python 3 to microcontrollers. 
+
+Thanks to Robert Mammelrath ([robert-hh](https://github.com/robert-hh)) *et al.* for keeping the initial port of MicroPython to the W60X by @wdyichen current and for making the image file available.
+
+Thanks to [LexxM3](https://github.com/LexxM3) for [information](https://github.com/sigmdel/w600_micropython_examples/issues/1) about the newest version of MicroPython of the W60X.
 
 ## Licence
 
