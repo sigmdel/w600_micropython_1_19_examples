@@ -1,0 +1,7 @@
+# mqtt server parameters, 1 MB W600 does not support TLS/SSL
+
+MQTT_SERVER="192.168.1.22"
+MQTT_PORT=1883
+MQTT_USER=None
+MQTT_PSWD=None
+MQTT_KEEPALIVE=0
